@@ -1,1 +1,3 @@
-console.log("Hello, world!");
+var myName = "Javier";
+console.log("Hello, " + myName + "!");
+console.log("Hello, ".concat(myName, "!"));
