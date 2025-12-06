@@ -10,4 +10,6 @@ variableUnknown = "Hello";
 variableUnknown = 42;
 variableUnknown = true;
 
-console.log('Value of variableUnknown is:', variableUnknown);
+if (typeof variableUnknown === 'string') {
+    console.log('variableUnknown is a string:', variableUnknown);
+}
