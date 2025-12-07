@@ -14,11 +14,13 @@ if (typeof variableUnknown === 'string') {
     console.log('variableUnknown is a string:', variableUnknown);
 }
 
+/*
 function throwError(message: string): never {
     throw new Error(message);
 }
 
 throwError('This is an error message');
+*/
 
 function logMessage(message: string): void {
     console.log('Log:', message);
