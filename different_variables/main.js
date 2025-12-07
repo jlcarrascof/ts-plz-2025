@@ -14,3 +14,7 @@ function throwError(message) {
     throw new Error(message);
 }
 throwError('This is an error message');
+function logMessage(message) {
+    console.log('Log:', message);
+}
+logMessage('This is a log message');

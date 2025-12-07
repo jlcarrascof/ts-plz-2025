@@ -19,3 +19,9 @@ function throwError(message: string): never {
 }
 
 throwError('This is an error message');
+
+function logMessage(message: string): void {
+    console.log('Log:', message);
+}
+
+logMessage('This is a log message');    
