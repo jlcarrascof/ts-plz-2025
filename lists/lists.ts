@@ -28,3 +28,21 @@ console.log("People List:", people);
 let person: [string, number, boolean];
 person = ["Amin", 39, true];
 console.log("Person Tuple:", person); 
+
+let peopleTuple: [string, number, boolean][] = [];
+peopleTuple.push(["Amin", 39, true]);
+peopleTuple.push(["Marce", 40, true]);
+peopleTuple.push(["Miranda", 7, false]);
+
+peopleTuple.forEach(person => {
+    console.log("Person from Tuple List:", person);
+
+    let name: string = person[0];
+    let age: number = person[1];
+    let isDeveloper: boolean = person[2];
+
+    console.log('Name:', name);
+    console.log('Age:', age);
+    console.log('Is Developer:', isDeveloper);
+
+});
