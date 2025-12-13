@@ -16,3 +16,16 @@ console.log("People List:", people);
 var person;
 person = ["Amin", 39, true];
 console.log("Person Tuple:", person);
+var peopleTuple = [];
+peopleTuple.push(["Amin", 39, true]);
+peopleTuple.push(["Marce", 40, true]);
+peopleTuple.push(["Miranda", 7, false]);
+peopleTuple.forEach(function (person) {
+    console.log("Person from Tuple List:", person);
+    var name = person[0];
+    var age = person[1];
+    var isDeveloper = person[2];
+    console.log('Name:', name);
+    console.log('Age:', age);
+    console.log('Is Developer:', isDeveloper);
+});
