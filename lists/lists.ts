@@ -23,3 +23,8 @@ console.log("People List:", people);
 people.push({ name: "Miranda", age: 30, isDeveloper: true });
 console.log("People List:", people);
 
+// Tuple example
+
+let person: [string, number, boolean];
+person = ["Amin", 39, true];
+console.log("Person Tuple:", person); 

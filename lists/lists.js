@@ -12,3 +12,7 @@ var people = [
 console.log("People List:", people);
 people.push({ name: "Miranda", age: 30, isDeveloper: true });
 console.log("People List:", people);
+// Tuple example
+var person;
+person = ["Amin", 39, true];
+console.log("Person Tuple:", person);
