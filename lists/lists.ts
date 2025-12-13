@@ -58,4 +58,5 @@ enum DayOfWeek {
   Sunday
 }
 
-console.log("Day of the Week:", DayOfWeek.Monday);
+let today: DayOfWeek = DayOfWeek.Wednesday;
+console.log("Day of the Week:", today);
