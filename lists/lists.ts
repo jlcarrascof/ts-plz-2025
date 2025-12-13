@@ -3,3 +3,6 @@ console.log("Names List:", names);
 
 let ages: number[] = [39, 25, 30];
 console.log("Ages List:", ages);
+
+let mixedList: any[] = ["Amin", 39, true];
+console.log("Mixed List:", mixedList);
