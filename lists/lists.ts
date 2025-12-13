@@ -44,5 +44,18 @@ peopleTuple.forEach(person => {
     console.log('Name:', name);
     console.log('Age:', age);
     console.log('Is Developer:', isDeveloper);
-
 });
+
+// Enums example
+
+enum DayOfWeek {
+  Monday,
+  Tuesday,
+  Wednesday,
+  Thursday, 
+  Friday,
+  Saturday, 
+  Sunday
+}
+
+console.log("Day of the Week:", DayOfWeek.Monday);
