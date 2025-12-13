@@ -6,3 +6,10 @@ console.log("Ages List:", ages);
 
 let mixedList: any[] = ["Amin", 39, true];
 console.log("Mixed List:", mixedList);
+
+interface Person {
+  name: string;
+  age: number;
+  isDeveloper: boolean;
+}
+
