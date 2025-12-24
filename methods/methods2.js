@@ -17,3 +17,10 @@ function addAll() {
     return numbers.reduce(function (accumulate, actual) { return accumulate + actual; }, 0);
 }
 console.log("Result of adding all numbers: ".concat(addAll(1, 2, 3, 4, 5)));
+// Default values ....
+function sayGoodbye(name, goodbye) {
+    if (goodbye === void 0) { goodbye = "Goodbye"; }
+    return "".concat(goodbye, ", ").concat(name);
+}
+console.log(sayGoodbye('Amin'));
+console.log(sayGoodbye('Amin', 'See ya later'));
