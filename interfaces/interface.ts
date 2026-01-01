@@ -19,3 +19,13 @@ let people: Person[] = [
 ]
 
 console.log('People: ', people);
+
+interface Add {
+    (a: number, b: number): number;
+}
+
+let add: Add = (a: number, b: number): number => {
+    return a + b;
+}
+
+console.log("Result of adding: ", add(5, 3))

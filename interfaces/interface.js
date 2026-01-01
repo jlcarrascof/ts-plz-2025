@@ -10,3 +10,7 @@ var people = [
     { name: "María", age: 30, isDeveloper: true },
 ];
 console.log('People: ', people);
+var add = function (a, b) {
+    return a + b;
+};
+console.log("Result of adding: ", add(5, 3));
