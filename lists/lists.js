@@ -1,10 +1,12 @@
-var names = ["Amin", "Marce", "Miranda"];
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+let names = ["Amin", "Marce", "Miranda"];
 console.log("Names List:", names);
-var ages = [39, 25, 30];
+let ages = [39, 25, 30];
 console.log("Ages List:", ages);
-var mixedList = ["Amin", 39, true];
+let mixedList = ["Amin", 39, true];
 console.log("Mixed List:", mixedList);
-var people = [
+let people = [
     { name: "Amin", age: 39, isDeveloper: true },
     { name: "Juan", age: 25, isDeveloper: false },
     { name: "Maria", age: 30, isDeveloper: true },
@@ -13,18 +15,18 @@ console.log("People List:", people);
 people.push({ name: "Miranda", age: 30, isDeveloper: true });
 console.log("People List:", people);
 // Tuple example
-var person;
+let person;
 person = ["Amin", 39, true];
 console.log("Person Tuple:", person);
-var peopleTuple = [];
+let peopleTuple = [];
 peopleTuple.push(["Amin", 39, true]);
 peopleTuple.push(["Marce", 40, true]);
 peopleTuple.push(["Miranda", 7, false]);
-peopleTuple.forEach(function (person) {
+peopleTuple.forEach(person => {
     console.log("Person from Tuple List:", person);
-    var name = person[0];
-    var age = person[1];
-    var isDeveloper = person[2];
+    let name = person[0];
+    let age = person[1];
+    let isDeveloper = person[2];
     console.log('Name:', name);
     console.log('Age:', age);
     console.log('Is Developer:', isDeveloper);
@@ -40,5 +42,6 @@ var DayOfWeek;
     DayOfWeek[DayOfWeek["Saturday"] = 5] = "Saturday";
     DayOfWeek[DayOfWeek["Sunday"] = 6] = "Sunday";
 })(DayOfWeek || (DayOfWeek = {}));
-var today = DayOfWeek.Wednesday;
+let today = DayOfWeek.Wednesday;
 console.log("Day of the Week:", DayOfWeek[today]);
+//# sourceMappingURL=lists.js.map

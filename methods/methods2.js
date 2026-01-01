@@ -1,26 +1,24 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function greeting(name, greet) {
     if (greet) {
-        return "".concat(greet, ", ").concat(name, "!");
+        return `${greet}, ${name}!`;
     }
     else {
-        return "Hello, ".concat(name, "!");
+        return `Hello, ${name}!`;
     }
 }
 console.log(greeting('Amin'));
 console.log(greeting('Amin', 'Good morning'));
 // Multiple params .....
-function addAll() {
-    var numbers = [];
-    for (var _i = 0; _i < arguments.length; _i++) {
-        numbers[_i] = arguments[_i];
-    }
-    return numbers.reduce(function (accumulate, actual) { return accumulate + actual; }, 0);
+function addAll(...numbers) {
+    return numbers.reduce((accumulate, actual) => accumulate + actual, 0);
 }
-console.log("Result of adding all numbers: ".concat(addAll(1, 2, 3, 4, 5)));
+console.log(`Result of adding all numbers: ${addAll(1, 2, 3, 4, 5)}`);
 // Default values ....
-function sayGoodbye(name, goodbye) {
-    if (goodbye === void 0) { goodbye = "Goodbye"; }
-    return "".concat(goodbye, ", ").concat(name);
+function sayGoodbye(name, goodbye = "Goodbye") {
+    return `${goodbye}, ${name}`;
 }
 console.log(sayGoodbye('Amin'));
 console.log(sayGoodbye('Amin', 'See ya later'));
+//# sourceMappingURL=methods2.js.map

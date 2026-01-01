@@ -1,9 +1,11 @@
-var variableAny;
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+let variableAny;
 // variableAny = "Hello";
 variableAny = 42;
 // variableAny = true;
 console.log('Value of variableAny is:', variableAny);
-var variableUnknown;
+let variableUnknown;
 // variableUnknown = "Hello";
 variableUnknown = 42;
 // variableUnknown = true;
@@ -21,3 +23,4 @@ function logMessage(message) {
     console.log('Log:', message);
 }
 logMessage('This is a log message');
+//# sourceMappingURL=main.js.map
