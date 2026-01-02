@@ -10,4 +10,10 @@ var readPerson = {
     isDeveloper: true
 };
 console.log("Person: ", readPerson);
-// readPerson.name = "Marce"; // This is an error.
+var readEmployee = {
+    name: "Amin",
+    age: 39,
+    isDeveloper: true,
+    position: "Senior Developer"
+};
+console.log("readEmployee: ", readEmployee);
