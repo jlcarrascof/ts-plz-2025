@@ -14,3 +14,14 @@ console.log("Address: ", address);
 
 // Read only properties 
 
+interface Person {
+    readonly name: string;
+    readonly age: number;
+    readonly isDeveloper: boolean;
+}
+
+let readPerson: Person = {
+    name: "Amin",
+    age: 39,
+    isDeveloper: true
+}
