@@ -30,3 +30,14 @@ console.log("Person: ", readPerson);
 
 // readPerson.name = "Marce"; // This is an error.
 
+// Extended Interface ...
+interface Employee extends Person {
+    readonly position: string;
+}
+
+let readEmployee: Employee = {
+    name: "Amin",
+    age: 39,
+    isDeveloper: true,
+    position: "Senior Developer"
+}
