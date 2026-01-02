@@ -11,3 +11,6 @@ let address: Address = {
 }
 
 console.log("Address: ", address);
+
+// Read only properties 
+
