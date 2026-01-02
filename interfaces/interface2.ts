@@ -25,3 +25,8 @@ let readPerson: Person = {
     age: 39,
     isDeveloper: true
 }
+
+console.log("Person: ", readPerson);
+
+// readPerson.name = "Marce"; // This is an error.
+
