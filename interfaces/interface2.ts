@@ -41,3 +41,5 @@ let readEmployee: Employee = {
     isDeveloper: true,
     position: "Senior Developer"
 }
+
+console.log("readEmployee: ", readEmployee);
